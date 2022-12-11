@@ -2,7 +2,7 @@
     <div>
         <h2>About</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla aliquid eveniet assumenda repellat qui consectetur animi, magnam, et voluptas ipsa tempora. Voluptatibus officia saepe nam dolor consectetur doloremque voluptas temporibus.</p>
-        <div>{{data}}</div>
+        <div>{{data.message}}</div>
     </div>
 </template>
 

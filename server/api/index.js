@@ -4,7 +4,7 @@ export default defineEventHandler(async (event) => {
     const {name} = getQuery(event)
     
     // handle post data
-    const {age} = await useBody(event)
+    const {age} = await readBody(event)
 
     return {
         message: `Hello ${name}! Your are ${age} years old.`
